@@ -1,0 +1,18 @@
+name: xunxiangnange
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xunxiangnange
+        env:
+          smpdl068: ${{ secrets.smpdl068 }}
+        run: |
+          echo $smpdl068 | jq -r .cqjlz1 | /bin/bash
+          echo $qqnfu935 | jq -r .kppls01 | /bin/bash
+          echo $hgx166 | jq -r .isy9289 | /bin/bash
+
